@@ -5,7 +5,7 @@ categories: [homelab]
 tags: [getting_started,homelab]
 description: How to setup a command & control machine for your home lab.
 author: hydra
-media_subpath: /assets/lib/
+media_subpath: /assets/posts/
 pin: true
 ---
 # Synopsis
