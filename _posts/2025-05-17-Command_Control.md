@@ -20,7 +20,7 @@ None of these are requirements, but I find that a clean, lab focused environment
 - Create a new [User Account](https://support.microsoft.com/en-us/windows/manage-user-accounts-in-windows-104dc19f-6430-4b49-6a2b-e4dbd1dcdf32) on your Windows computer:
   - This is helpful to give you a clean space free from your daily distractions and help you focus on your goals for your home lab.
 - Create a new email address for your home lab account:
-  - Creating a dedicated email account allows you to send logs and register for accounts online dedicated to your home lab. This helps to keep your daily email traffic segragated. You can use your favorite free email provider like [Gmail](https://mail.google.com) or [Outlook](https://www.microsoft.com/en-gb/microsoft-365-life-hacks/organisation/how-to-create-outlook-email-account).
+  - Creating a dedicated email account allows you to send logs and register for accounts online dedicated to your home lab. This helps to keep your daily email traffic segregated. You can use your favorite free email provider like [Gmail](https://mail.google.com) or [Outlook](https://www.microsoft.com/en-gb/microsoft-365-life-hacks/organisation/how-to-create-outlook-email-account).
 - Security:
   - Many of the services that you can setup in your home lab can put the rest of your home network at risk. Follow best practices and set difficult passwords, manage firewall rules, and understand the risks before deploying anything.
 - Don't rush out and buy a bunch of hardware:
@@ -64,7 +64,7 @@ You don't need much hardware to start your home lab journey, so don't go overboa
 - Cellphone (Optional for Bitwarden App)
 
 ## What's Next?
-Now that you have your command & control computer ready to go, you can start to look at other services that I have Hacks for. If you're just getting started I would suggest loking at some of the Docker Hacks or even the RaspberryPi Hacks as they both have a lower cost for entry.
+Now that you have your command & control computer ready to go, you can start to look at other services that I have Hacks for. If you're just getting started I would suggest looking at some of the Docker Hacks or even the RaspberryPi Hacks as they both have a lower cost for entry.
 
 
 >Disclaimer: This Hack is intended for entertainment purposes only and is not intended to be a complete guide to every situation or need.
