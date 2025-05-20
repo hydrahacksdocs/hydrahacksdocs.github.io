@@ -36,7 +36,7 @@ Let's take a moment to look at some of the software you may want to use to help 
 - [Bitwarden Personal Account](https://bitwarden.com/products/personal/)
   - Password/SSH Key Management/Authenticator
   - I highly recommend you get the premium account ($10/year) as it adds some useful features, like password monitoring on the dark web and a built in Authenticator for TOTP.
-  - Here is my Hack for some tips and getting started with Bitwarden.
+  - Here is my [Bitwarden Hack](https://hydrahacksdocs.github.io/posts/Bitwarden/) for some tips and getting started with Bitwarden.
 - Windows Subsystem for Linux (WSL) with Ubuntu Linux
   - Yes, most of your home lab services will be running on Linux in some form. Don't stress, I'll try to make it as simple as possible for you to follow along.
 - SSH (Secure Shell)

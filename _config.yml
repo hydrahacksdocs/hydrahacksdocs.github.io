@@ -14,12 +14,12 @@ timezone: America/Denver
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: HydraHacks Docs. Site # the main title
+title: HydraHacks # the main title
 
-tagline: A Collection of docs (Hacks) Created by Hydra. # it will display as the subtitle
+tagline: A Collection of docs (Hacks) Created by Keenan "Hydra" Johnson. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A Collection of docs (Hacks) Created by Hydra.
+  A Collection of docs (Hacks) Created by Keenan "Hydra" Johnson.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -38,7 +38,7 @@ social:
   email: hydra@HydraHacks.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
+    - https://twitter.com/hydrahacksdocs # change to your Twitter homepage
     - https://github.com/hydrahacksdocs # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
