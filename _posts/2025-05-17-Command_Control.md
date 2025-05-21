@@ -42,8 +42,8 @@ Let's take a moment to look at some of the software you may want to use to help 
 - [Microsoft Visual Studio Code](https://hydrahacksdocs.github.io/posts/VS_Code/)
   - VS Code is a good, lightweight, cross-platform editor with lots of community support and extra addons. Don't confuse it with Visual Studio MSDN though as it is intended for the serious developer running various application code on your local machine. You will not need a Microsoft Visual Studio MSDN account to use VS Code.
 - GitHub Account (Optional, but recommended)
-  - It is highly recommended that you keep your home lab documented. GitHub is a online git repository that offers free accounts to developers, and in most cases, you will not need anything more that a free account for home lab.
-  - I have a Hack to help you get setup with a free account and how to setup your WSL to interact with it through SSH keys.
+  - It is highly recommended that you keep your home lab documented. GitHub is a online git repository that offers free accounts to developers, and in most cases, you will not need anything more than a free account for home lab.
+  - I have a [Hack](https://hydrahacksdocs.github.io/posts/GitHub/) to help you get setup with a free account and how to setup your WSL to interact with it through SSH keys.
 - SSH (Secure Shell)
   - SSH is the method that we will use to connect to all remote Linux machines in the home lab as well as our git repository.
   - SSH is installed in WSL, but we can also install PuTTY if you want a Windows based tool for SSH remote control.
