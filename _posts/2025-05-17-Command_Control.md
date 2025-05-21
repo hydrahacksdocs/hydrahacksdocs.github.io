@@ -44,13 +44,17 @@ Let's take a moment to look at some of the software you may want to use to help 
 - GitHub Account (Optional, but recommended)
   - It is highly recommended that you keep your home lab documented. GitHub is a online git repository that offers free accounts to developers, and in most cases, you will not need anything more than a free account for home lab.
   - I have a [Hack](https://hydrahacksdocs.github.io/posts/GitHub/) to help you get setup with a free account and how to setup your WSL to interact with it through SSH keys.
-- SSH (Secure Shell)
+- [SSH Hack](https://hydrahacksdocs.github.io/posts/Ssh/) (Secure Shell)
   - SSH is the method that we will use to connect to all remote Linux machines in the home lab as well as our git repository.
-  - SSH is installed in WSL, but we can also install PuTTY if you want a Windows based tool for SSH remote control.
-- Git for Windows
+  - SSH is installed in WSL, but we can also install [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) if you want a Windows based tool for SSH remote control.
+- [Git for Windows](https://git-scm.com/downloads)
   - Optional, you can do everything from your WSL.
 - Docker Desktop for Windows or Docker on your WSL
   - Optional for your Command & Control computer, but if you don't have any other hardware to play with yet, you can use your command & control machine to play with some docker services.
+- [RaspberryPi Imager](https://www.raspberrypi.com/software/)
+  - The RaspberryPi is a Single Board Computer (SBC) ths is popular in home lab as a low cost entry point. It have a massive community with lots of project based on it. If you are looking for an inexpensive introduction to Linux hardware you can't go wrong. If you don't already have one, I would suggest you look at the RaspberryPi 5 at a minimum starting point.
+- [BalenaEtcher](https://etcher.balena.io/)
+  - Many of the projects that you will be working on in your home lab will require a way to write an OS image to a USB thumb drive. BelenaEtcher is a widely supported, simple tool used to write images. [Rufus](https://rufus.ie/en/) is another option with more customization. If you want multi-boot capabilities you may want to look at [YUMI](https://pendrivelinux.com/yumi-multiboot-usb-creator/) as an option too.
 
 ## Basic Hardware Needs
 You don't need much hardware to start your home lab journey, so don't go overboard. You can expand as you decide to add more services.
