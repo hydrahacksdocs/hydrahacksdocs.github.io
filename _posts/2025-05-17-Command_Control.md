@@ -66,7 +66,7 @@ You don't need much hardware to start your home lab journey, so don't go overboa
 - Cellphone (Optional for Bitwarden App)
 
 ## What's Next?
-Now that you have your command & control computer ready to go, you can start to look at other services that I have Hacks for. If you're just getting started I would suggest looking at some of the Docker Hacks or even the RaspberryPi Hacks as they both have a lower cost for entry.
+Now that you have your command & control computer ready to go, you can start to look at other services that I have Hacks for. If you're just getting started I would suggest looking at some of the [Docker](https://hydrahacksdocs.github.io/tags/docker/) Hacks or even the [RaspberryPi](https://hydrahacksdocs.github.io/tags/rpi/) Hacks as they both have a lower cost for entry.
 
 
 >Disclaimer: This Hack is intended for entertainment purposes only and is not intended to be a complete guide to every situation or need.
