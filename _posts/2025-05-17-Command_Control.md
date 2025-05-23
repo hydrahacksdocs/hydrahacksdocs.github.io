@@ -25,6 +25,8 @@ None of these are requirements, but I find that a clean, lab focused environment
   - Many of the services that you can setup in your home lab can put the rest of your home network at risk. Follow best practices and set difficult passwords, manage firewall rules, and understand the risks before deploying anything.
 - Don't rush out and buy a bunch of hardware:
   - Your home lab can grow over time, don't think you need to spend a ton of money to have a functional home lab. Be realistic about your needs and goals. We will discuss hardware in future Hacks.
+  - If you don't have a current computer running Windows 11 and want a inexpensive option, check out the [ACEMAGICIAN N150](https://amzn.to/43HVLjA). It comes with Windows 11 Pro and enough power to get you started. It is what I use to create all the Windows WSL/Getting-Started posts.
+    - Disclaimer: The link above will provide a small commission to me, at no added cost to you.
 - Have Fun:
   - The point of a home lab is to learn. Enjoy the process of building something yourself. Screw stuff up so you can learn from it. Don't expect perfection. Ask yourself what your goal is for installing any given service so you don't overload yourself. Start out slow, you don't need enterprise level gear or expertise to have a fun, functional home lab. You don't need every service someone else installs, be picky about what you are willing to support into the future.
 
