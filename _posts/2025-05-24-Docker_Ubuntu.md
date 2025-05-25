@@ -16,7 +16,7 @@ The Official Docker Engine is the recommended method from Docker to it docker on
 
 ## Cleanup Any Old Installs
 1. It is recommended that you make sure there are no older versions of docker installed by the Ubuntu maintainers, so let's remove any dependencies first.
-2. Remote into your Ubuntu server using your username and password or [SSH Key](hydrahackdocs.github.io/posts/Ssh/).
+2. Remote into your Ubuntu server using your username and password or [SSH Key](hydrahacksdocs.github.io/posts/Ssh/).
 3. Execute the following commands to remove any old docker application versions on the server:
 
 ```bash
