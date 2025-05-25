@@ -72,13 +72,14 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 sudo usermod -aG docker $USER
 ```
 
-5. Check the status of the docker service:
+5. You will need to log out and back into your Ubuntu server for this change to take affect.
+6. Check the status of the docker service:
 
 ```bash
 sudo systemctl status docker
 ```
 
-6. Enable and start the new Docker Engine if it did not get started during install
+7. Enable and start the new Docker Engine if it did not get started during install
 
 ```bash
 sudo systemctl enable docker
@@ -86,7 +87,7 @@ sudo systemctl start docker
 sudo systemctl status docker
 ```
 
-7. Now let's make sure you can successfully run a docker deploy:
+8. Now let's make sure you can successfully run a docker deploy:
 
 ```bash
 docker run hello-world
