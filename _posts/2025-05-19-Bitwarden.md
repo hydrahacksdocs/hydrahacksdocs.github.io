@@ -17,9 +17,9 @@ Bitwarden is a free to low cost password management solution. It helps us keep a
 While there is a free option and it will work fine for most of what we want to do, I would recommend that you buy the $10/yr personal premium license at least. It adds some great features that we just don't get with the free version. Bitwarden does not pay me to recommend it, so it really is my opinion.
 
 ## Account Creation, Extension Install, and First Login Card
-1. Create a new account at [Bitwarden Personal](https://bitwarden.com/go/start-free/).
+- Create a new account at [Bitwarden Personal](https://bitwarden.com/go/start-free/).
     - As suggested earlier in the [Command & Control Hack](https://hydrahacksdocs.github.io/posts/Command_Control/) I suggest using a new email account for your account.
-2. Once your new account is setup and verified, I recommend installing the [Bitwarden Extension](https://chromewebstore.google.com/detail/bitwarden-password-manage/) to Chrome.
+- Once your new account is setup and verified, I recommend installing the [Bitwarden Extension](https://chromewebstore.google.com/detail/bitwarden-password-manage/) to Chrome.
 
     ![Bitwarden Extension](/2025-05-17/bitwarden.png){: width="300" }
     _Bitwarden Extension_
@@ -29,15 +29,15 @@ While there is a free option and it will work fine for most of what we want to d
     ![Bitwarden Login](/2025-05-17/bitwarden-login.png){: width="300" }
     _[Bitwarden Login]_
 
-3. Open up the extension to see the main menu:
+- Open up the extension to see the main menu:
 
     ![Bitwarden Menu](/2025-05-17/bitwarden-menu.png){: width="300" }
     _Bitwarden Menu_
 
-4. Let's create a new folder to hold our online accounts for our home lab user/email:
+- Let's create a new folder to hold our online accounts for our home lab user/email:
     - Click the **"+ New"** button and select **Folder** at the bottom of the list.
     - Enter a name for the new folder like **Home Lab Accounts"**.
-5. There are a couple ways we can add an account. First, when we enter our user/password on a site that Bitwarden does not have in its database it will offer to save it for us. Second is to manually add the login to Bitwarden. I prefer to use the second method as I feel I have more control over the creation.
+- There are a couple ways we can add an account. First, when we enter our user/password on a site that Bitwarden does not have in its database it will offer to save it for us. Second is to manually add the login to Bitwarden. I prefer to use the second method as I feel I have more control over the creation.
     - Navigate to a site you want to save a user/password for, like your new Gmail or Outlook account.
     - Click the Bitwarden Shield Extension Icon, and select **"+ New"** -> Login. This will open up the login creation window in Bitwarden.
 
@@ -70,7 +70,7 @@ While there is a free option and it will work fine for most of what we want to d
     ![Bitwarden Menu](/2025-05-17/bitwarden-note.png){: width="300" }
     _Bitwarden Notes_
 
-6. Each option under the **"+ New"** button are similar, they just contain different data:
+- Each option under the **"+ New"** button are similar, they just contain different data:
     - Card: Keep credit card data handy.
     - Identity: Create a person card that has addresses, phone numbers and other personal information. Bitwarden will try to fill in this information when you fill out web forms.
     - Note: Simple, secure notes that you may want to keep.
