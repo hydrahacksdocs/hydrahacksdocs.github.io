@@ -92,27 +92,27 @@ Portainer offers an agent docker container that you can install on any remote do
 - Connect to the master Portainer instance.
 - From the Left-hand menu select the **Environment-related -> Environments** section.
 
-![Main Menu](/assets/posts/2025-05-22/main.png){: width="300" }
+![Main Menu](/2025-05-22/main.png){: width="300" }
 _Main Menu_
 
 - Next select **+ Add Environment** from the top-right of the environments panel.
 
-![Add](/assets/posts/2025-05-22/add.png){: width="150" }
+![Add](/2025-05-22/add.png){: width="150" }
 _Add Environment_
 
 - Select **Standalone Docker** and then click on **Start Wizard**.
 
-![Standalone](/assets/posts/2025-05-22/standalone.png){: width="300" }
+![Standalone](/2025-05-22/standalone.png){: width="300" }
 _Standalone Docker_
 
 - Select **Agent**.
 
-![Agent](/assets/posts/2025-05-22/agent.png){: width="300" }
+![Agent](/2025-05-22/agent.png){: width="300" }
 _Agent_
 
 - Copy the docker run command shown, this is an example image but versions may be different in your environment.
 
-![Docker Run](/assets/posts/2025-05-22/docker-run.png){: width:="300" }
+![Docker Run](/2025-05-22/docker-run.png){: width:="300" }
 _Docker Run_
 
 - On the remote docker instance that you want to add to Portainer, run the copied docker run command.
@@ -120,12 +120,12 @@ _Docker Run_
 - Back in Portainer on the master instance enter a name for the agent, I recommend using the hostname but you can use whatever you like.
 - In the environment address field enter the IPADDRESS:9001 of your remote docker instance.
 
-![Name](/assets/posts/2025-05-22/name.png){: width="300" }
+![Name](/2025-05-22/name.png){: width="300" }
 _Name_
 
 - Click on **Connect** to add the agent to your master instance of Portainer. You will get a message from Portainer that it was successfully added.
 
-![Connect](/assets/posts/2025-05-22/connect.png){: width="150" }
+![Connect](/2025-05-22/connect.png){: width="150" }
 _Connect_
 
 - Click on **Environments** from the left-hand menu and you should see both the new remote environment as well as your local environment.
