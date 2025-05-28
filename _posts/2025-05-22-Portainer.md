@@ -14,7 +14,7 @@ pin: false
 
 You will need Docker Compose to perform this setup. If you still only have your WSL Linux computer and hav not installed docker yet, you can use the [Docker WSL](https://hydrahacksdocs.github.io/posts/Docker_WSL/) Hack to prepare for this install.
 
-## Installation
+## Installation of Portainer
 - Open your Windows Terminal WSL and then make sure you are in your home directory:
 
 ```bash
@@ -86,5 +86,48 @@ docker ps
 - Once you are able to see the Home Dashboard select local to see you local docker containers. You should see the Dashboard for the local docker, listing local containers, volumes, images, networks and stacks.
 - Click on stacks. You should see the stack named portainer, for the docker compose stack we just deployed for portainer.
 - Explore the interface and get comfortable with each section. You can visit [Portainer's Support](https://docs.portainer.io/user/home) for further reading.
+
+## Deploy the Portainer Agent to Other Docker Servers
+Portainer offers an agent docker container that you can install on any remote docker servers that you have and want to use a single instance of Portainer to manage. This is useful if you plan on using docker on a RaspberryPi or other Linux install. Let's walk through how to install the agent on another instance of docker. I assume that you have already followed the [Docker Ubuntu](https://hydrahacksdocs.github.io/posts/Docker_Ubuntu/) Hack before taking these steps.
+- Connect to the master Portainer instance.
+- From the Left-hand menu select the **Environment-related -> Environments** section.
+
+![Main Menu](/assets/posts/2025-05-22/main.png){: width="300" }
+_Main Menu_
+
+- Next select **+ Add Environment** from the top-right of the environments panel.
+
+![Add](/assets/posts/2025-05-22/add.png){: width="150" }
+_Add Environment_
+
+- Select **Standalone Docker** and then click on **Start Wizard**.
+
+![Standalone](/assets/posts/2025-05-22/standalone.png){: width="300" }
+_Standalone Docker_
+
+- Select **Agent**.
+
+![Agent](/assets/posts/2025-05-22/agent.png){: width="300" }
+_Agent_
+
+- Copy the docker run command shown, this is an example image but versions may be different in your environment.
+
+![Docker Run](/assets/posts/2025-05-22/docker-run.png){: width:="300" }
+_Docker Run_
+
+- On the remote docker instance that you want to add to Portainer, run the copied docker run command.
+- Wait for the container to download and install.
+- Back in Portainer on the master instance enter a name for the agent, I recommend using the hostname but you can use whatever you like.
+- In the environment address field enter the IPADDRESS:9001 of your remote docker instance.
+
+![Name](/assets/posts/2025-05-22/name.png){: width="300" }
+_Name_
+
+- Click on **Connect** to add the agent to your master instance of Portainer. You will get a message from Portainer that it was successfully added.
+
+![Connect](/assets/posts/2025-05-22/connect.png){: width="150" }
+_Connect_
+
+- Click on **Environments** from the left-hand menu and you should see both the new remote environment as well as your local environment.
 
 >Disclaimer: This Hack is intended for entertainment purposes only and is not intended to be a complete guide to every situation or need.
