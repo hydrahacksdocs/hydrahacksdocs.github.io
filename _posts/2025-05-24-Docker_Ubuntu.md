@@ -12,7 +12,7 @@ pin: false
 >Want to add Docker to a new Ubuntu server? Let's go through the process of installing it on a new server!
 {: .prompt-info }
 
-The Official Docker Engine is the recommended method from Docker to it docker on your Ubuntu server. The Ubuntu maintainers version can has some weird affects on containers on occasion.
+The Official Docker Engine is the recommended method from Docker to install docker on your Ubuntu server. The Ubuntu maintainers version can has some weird affects on containers on occasion.
 
 ## Cleanup Any Old Installs
 - It is recommended that you make sure there are no older versions of docker installed by the Ubuntu maintainers, so let's remove any dependencies first.
