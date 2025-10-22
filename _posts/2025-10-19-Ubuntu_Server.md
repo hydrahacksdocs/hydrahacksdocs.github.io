@@ -21,78 +21,78 @@ You will also want to understand your networking requirements as well as what yo
 ## Install Ubuntu Server Edition
 - Boot your VM or server with the ISO image you downloaded from Canonical. You will see the following boot menu. Select *Try or Install Ubuntu Server to get started.
 
-    ![Boot Menu](/assets/posts/2025-10-19/10-ubuntu-boot.png) {: width="300" }
+    ![Boot Menu](2025-10-19/10-ubuntu-boot.png) {: width="300" }
     _Boot Menu_
 
 - Select your language from the list and hit **Enter** to continue the installation.
 
-    ![Language](/assets/posts/2025-10-19/11-ubuntu-language.png) {: width="300" }
+    ![Language](2025-10-19/11-ubuntu-language.png) {: width="300" }
     _Language_
 
 - If you happen to be running an older version of the installer, you can opt to update the installer or continue without updating. Make your selection then press **Enter** to continue.
 
-    ![Update Installer](/assets/posts/2025-10-19/12-ubuntu-installer.png) {: width="300" }
+    ![Update Installer](2025-10-19/12-ubuntu-installer.png) {: width="300" }
     _Update Installer_
 
 - The installer should auto-detect your keyboard layout, but if it does not, select the correct layout and variant from the drop down menu options then press **Enter** when ready to continue.
 
-    ![Keyboard](/assets/posts/2025-10-19/13-ubuntu-keyboard.png) {: width="300" }
+    ![Keyboard](2025-10-19/13-ubuntu-keyboard.png) {: width="300" }
     _Keyboard_
 
 - Next you can choose to install the full Ubuntu Server experience or just just the minimized version used for containers and IoT devices. In most cases you will select the Ubuntu Server option. Press **Enter** when ready to move on.
 
-    ![Version Type](/assets/posts/2025-10-19/14-ubuntu-type.png) {: width="300" }
+    ![Version Type](2025-10-19/14-ubuntu-type.png) {: width="300" }
     _Version Type_
 
 - The installer should detect your network hardware and give you the option to setup how you want to use it. The default is to use DHCPv4 and it will try to pull and IP address automatically for you. If you have more than one network card installed or virtual network card setup, make sure you select the correct card for each network you intend to configure. If you choose, you can also create the network configuration manually. Once you have completed your setup, continue to the next step by pressing **Enter**.
 
-    ![Networking](/assets/posts/2025-10-19/15-ubuntu-network.png) {: width="300" }
+    ![Networking](2025-10-19/15-ubuntu-network.png) {: width="300" }
     _Networking_
 
 - Enter any Proxy servers that you may have on your network, or leave it blank if none are installed. Press **Enter** to continue.
 
-    ![Proxy Server](/assets/posts/2025-10-19/16-ubuntu-proxy.png) {: width="300" }
+    ![Proxy Server](2025-10-19/16-ubuntu-proxy.png) {: width="300" }
     _Proxy Server_
 
 - Next the installer will want to verify that you have internet connectivity so it can pull updates as needed during the install. Once it is complete you can press **Enter** to continue. If you get an error from the installer, go back and make sure your networking settings are correct.
 
-    ![Mirror Testing](/assets/posts/2025-10-19/17-ubuntu-mirrors.png) {: width="300" }
+    ![Mirror Testing](2025-10-19/17-ubuntu-mirrors.png) {: width="300" }
     _Mirror Testing_
 
 - Now you will get an option to configure your drives. You can select the drive you want to use as the OS install drive as well as if you want to use the entire disk as well as configure it as a LVM disk. LVM allows for greater flexibility and is the recommended. Choose if you want to encrypt the drive as well. Once you are satisfied with your choices, press **Enter** to continue to partitioning.
 
-    ![Disks](/assets/posts/2025-10-19/18-ubuntu-disks.png) {: width="300" }
+    ![Disks](2025-10-19/18-ubuntu-disks.png) {: width="300" }
     _Disks_
 
 - The installer will recommend a storage layout for you. You can opt to use the default and continue. I would review this closely however as the installer may not choose to use the entire volume group size for the root logical volume. If you do not plan to add any other logical volumes during installation, you may want to adjust it to use the full disk space. Press **Enter** once you are happy with the layout.
 
-    ![Storage Layout](/assets/posts/2025-10-19/19-ubuntu-partitions.png) {: width="300" }
+    ![Storage Layout](2025-10-19/19-ubuntu-partitions.png) {: width="300" }
     _Storage Layout_
 
 - Next the installer will warn you that this process is destructive to any existing data and request you wish to continue  the installation. Press **Enter** when ready.
 
-    ![Format Disks](/assets/posts/2025-10-19/20-ubuntu-format.png) {: width="300" }
+    ![Format Disks](2025-10-19/20-ubuntu-format.png) {: width="300" }
     _Format Disks_
 
 - Now you will be prompted to create your primary user account. This account is going to be your standard login account. Enter your Name, Server Name, user ID and Password. Remember to save this to [Bitwarden](https://hydrahacksdocs.github.io/posts/Bitwarden/) if you followed my previous Hack. Press **Enter** when you are satisfied with your choices.
 
-    ![Server Name and User Name](/assets/posts/2025-10-19/21-ubuntu-user.png) {: width="300" }
+    ![Server Name and User Name](2025-10-19/21-ubuntu-user.png) {: width="300" }
     _Server Name and User Name_
 
 - If you have a need to upgrade your Ubuntu Server to meet more stringent security requirements you can now choose to update to Ubuntu Pro, which will help meet some of the FedRAMP, FIPS, HIPAA and other compliance hardening requirements. Press **Enter** once you have made your selection.
 
-    ![Ubuntu Pro](/assets/posts/2025-10-19/22-ubuntu-pro.png) {: width="300" }
+    ![Ubuntu Pro](2025-10-19/22-ubuntu-pro.png) {: width="300" }
     _Ubuntu Pro_
 
 - The installer will next ask you if you want to enable the OpenSSH server. I would recommend enabling the OpenSSH server if you plan to access your server remotely. It also allows you to import any [SSH Keys](https://hydrahacksdocs.github.io/posts/Ssh/) you may have previously created. Once done, press **Enter**.
 
 
-    ![SSH Server](/assets/posts/2025-10-19/23-ubuntu-ssh.png) {: width="300" }
+    ![SSH Server](2025-10-19/23-ubuntu-ssh.png) {: width="300" }
     _SSH Server_
 
 - During installation the installer will also give you the option to install some common services. If you plan to use this installation as a docker host, I would suggest you not select the docker option here though and use the docker repositories instead. I have a different Hack that can help you install [Docker on Ubuntu](https://hydrahacksdocs.github.io/posts/Docker_Ubuntu/) if you need it. Press **Enter** when you are happy with your selections.
 
-    ![Services](/assets/posts/2025-10-19/24-ubuntu-servers.png) {: width="300" }
+    ![Services](2025-10-19/24-ubuntu-servers.png) {: width="300" }
     _Services_
 
 - The installer will now begin your installation. Wait until it has completed then select Reboot Now and then press **Enter** to reboot. Your installation is now complete. Verify you can log into your new Ubuntu Server. I have few basic configuration changes to recommend after a new install, so let's explore those in the next section.
